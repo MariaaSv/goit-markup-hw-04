@@ -371,7 +371,7 @@ section {
 }
 
 .project-card-link:hover .overlay,
-project-card-link:focus .overlay {
+.project-card-link:focus .overlay {
   transform: translateY(0%);
 }
 
@@ -435,6 +435,9 @@ project-card-link:focus .overlay {
   align-items: baseline;
   justify-content: center;
   position: relative;
+}
+
+.logo-footer-container{
   margin-right: 120px;
 }
 
