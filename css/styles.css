@@ -420,10 +420,18 @@ project-card-link:focus .overlay {
 .footer {
   padding: 100px 0;
   background-color: #2e2f42;
+}
+
+.main-footer-container{
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   position: relative;
+}
+
+.logo-footer-container{
+  margin-right: 120px;
+
 }
 
 .logotype-footer {
@@ -449,8 +457,16 @@ project-card-link:focus .overlay {
   top: 100px;
 }
 
+.social-media-list-footer{
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+ }
+
+
 .footer-links {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
