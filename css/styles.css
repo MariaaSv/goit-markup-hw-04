@@ -112,7 +112,7 @@ section {
   position: absolute;
   display: block;
   width: 100%;
-  bottom: -1px;
+  bottom: 0;
   left: 0;
   height: 4px;
   border-radius: 2px;
@@ -144,10 +144,9 @@ section {
 /*Section 1*/
 .first-section {
   background-color: #2e2f42;
-  height: 600px;
   padding: 188px 0;
   max-width: 1440px;
-
+  width: auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -439,9 +438,6 @@ section {
 
 .logo-footer-container{
   margin-right: 120px;
-  margin-left: 0;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .logotype-footer {
