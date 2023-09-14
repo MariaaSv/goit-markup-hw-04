@@ -112,7 +112,7 @@ section {
   position: absolute;
   display: block;
   width: 100%;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   height: 4px;
   border-radius: 2px;
