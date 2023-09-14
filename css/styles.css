@@ -381,6 +381,7 @@ section {
   transform: translateY(0%);
 }
 
+
 .overlay {
   position: absolute;
   left: 0;
@@ -434,19 +435,17 @@ section {
 .main-footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: center;
-  position: relative;
 }
 
 .logo-footer-container{
   margin-right: 120px;
+  margin-left: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logotype-footer {
-  display: inline-flex;
   height: 24px;
-  align-items: center;
-  flex-shrink: 0;
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -461,13 +460,14 @@ section {
 }
 
 .social-media-footer-container {
-  position: absolute;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .social-media-list-footer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   gap: 16px;
 }
 
